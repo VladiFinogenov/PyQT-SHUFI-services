@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>821</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(192, 191, 188);
+border-color: rgb(61, 56, 70);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="text_dir_pc">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(228, 228, 228);</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>220</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Включить автосканирование</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбранная директория на 
+ПК:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="text_dir_disk">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>110</y>
+      <width>531</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(228, 228, 228);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Директория для записи на 
+Яндекс диске</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Информация Я.Диск:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="used_disk_space">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Занятое место на диске:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="disk_size">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Размер диска (ГБ):</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="disk_size_lcd">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(228, 228, 228);</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="used_disk_space_lcd">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(228, 228, 228);</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>804</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(228, 228, 228);</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>230</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Старт</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>821</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Настройки</string>
+    </property>
+    <addaction name="scan_timer"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Я.Диск</string>
+    </property>
+    <widget class="QMenu" name="menu_7">
+     <property name="title">
+      <string>действие</string>
+     </property>
+     <addaction name="action_8"/>
+     <addaction name="action_7"/>
+     <addaction name="action_6"/>
+     <addaction name="create_dir"/>
+    </widget>
+    <addaction name="action_9"/>
+    <addaction name="menu_7"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="contextMenuPolicy">
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <widget class="QMenu" name="menu_1">
+     <property name="title">
+      <string>справка1</string>
+     </property>
+     <addaction name="action3"/>
+     <addaction name="action2"/>
+    </widget>
+    <addaction name="menu_1"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>информация о диске</string>
+    </property>
+    <addaction name="disk_info"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>выбор директорий</string>
+    </property>
+    <addaction name="select_dir_action"/>
+    <addaction name="select_dir_action1"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_6"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <action name="create_dir">
+   <property name="text">
+    <string>создать папку</string>
+   </property>
+  </action>
+  <action name="scan_timer">
+   <property name="text">
+    <string>таймер сканирования</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Скачать файл</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Загрузить файл</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Удаление файла или папки</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>очистка корзины</string>
+   </property>
+  </action>
+  <action name="select_dir_action">
+   <property name="text">
+    <string>выбрать директорию на ПК</string>
+   </property>
+  </action>
+  <action name="select_dir_action1">
+   <property name="text">
+    <string>выбрать директорию на диске</string>
+   </property>
+  </action>
+  <action name="disk_info">
+   <property name="text">
+    <string>обновить информацию о диске</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>справка</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>2 словарь</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>3 словар</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
