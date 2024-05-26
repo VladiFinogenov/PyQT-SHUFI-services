@@ -13,7 +13,7 @@
 - удалять файлы;
 - скачивать файлы;
 
-## Установка (Linux)
+## Установка в (Linux)
 
 1. Клонирование репозитория.
 ```git clone https://github.com/VladiFinogenov/PyQT-SHUFI-services.git```
